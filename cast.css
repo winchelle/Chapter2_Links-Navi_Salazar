@@ -1,0 +1,30 @@
+body { /* Background of the website */
+    background-image: url(beige.webp); 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+.nav { /* navigation bar */
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    padding: 10px 50px;
+    position: center;
+    background-color: rgb(158, 151, 138);
+}
+h1 { /*title position and style*/
+    color: rgb(65, 77, 104);
+    font-size: 50px;
+    float: center;
+    position: absolute;
+    top: 5%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+p{ /*p tag position and style*/
+    color: rgb(100, 70, 70);
+    font-size: 20px;
+    margin-top: 50;
+    text-align: center;
+}  
